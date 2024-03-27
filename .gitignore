@@ -1,0 +1,14 @@
+# Ignore build output directories
+/bin
+/obj
+
+# Ignore NuGet packages
+*.nupkg
+# Including the NuGet cache folders
+~/.nuget/
+!.nuget/packages/
+!.nuget/packages/**/contentFiles/**/*
+
+
+# Ignore local settings file
+appsettings.Development.json
